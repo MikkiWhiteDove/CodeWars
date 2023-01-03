@@ -7,7 +7,7 @@
     Array(String(num)).map{Int(String($0))!}.reversed()
 }
 ```
-### Best func
+### Best examples
 ```Swift
     String(num).characters.flatMap { Int(String($0)) }.reversed()
     String(num).map{ $0.wholeNumberValue! }.reversed()
